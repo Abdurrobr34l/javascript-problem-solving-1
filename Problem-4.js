@@ -7,15 +7,15 @@
 
 
 function findLargeNumber(numbersArray) {
-  let bigNum = numbersArray[0];
+  let initialNumber = numbersArray[0];
 
   for (let i = 0; i < numbersArray.length; i++) {
-    if (numbersArray[i] > bigNum) {
-      bigNum = numbersArray[i];
+    if (numbersArray[i] > initialNumber) {
+      initialNumber = numbersArray[i];
     };
   };
 
-  return bigNum
+  return initialNumber
 }
 
-console.log(findLargeNumber([5, 1, 9, 3]));
+console.log(findLargeNumber([5, 1, 3]));
