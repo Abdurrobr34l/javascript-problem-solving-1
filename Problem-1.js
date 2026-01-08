@@ -1,4 +1,9 @@
 //* PROBLEM 1: REVERSE A STRING
+// Write a function that takes a string and returns it reversed.
+
+// Example:
+// Input: "hello"
+// Output: "olleh"
 
 function reverseString(string) {
   let reversedString = "";
